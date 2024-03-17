@@ -1,0 +1,43 @@
+<!--Today I am continuing with DOM-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Introduction to the DOM Events</title>
+    <script>
+// We can use the window.onload event to ensure that the DOM is fully loaded
+
+        window.onload = function(){
+// Find all the <li> elements, to attach the event handlers to them
+
+        var li = document.getElementsByTagName("li");
+        for ( var i = 0; i < li.length; i++ ) {
+// Attach a click event handler to the <li> element,
+// Attach a mouseover event handler to the <li> element,
+// which changes the <li>s background to blue.
+
+        li[i].onmouseover = function() {
+        this.style.backgroundColor = 'blue';
+        };
+
+// Attach a mouseout event handler to the <li> element
+// which changes the <li>s background back to its default white
+        li[i].onmouseout = function() {
+        this.style.backgroundColor = 'white';
+        };
+        }
+        };
+    </script>
+</head>
+<body>
+    <h1>Introduction to the DOM</h1>
+    <p class="test">There are a number of reasons why the DOM is awesome, here are some:</p>
+    <ul>
+        <li id="everywhere">DOM can be found everywhere.</li>
+        <li class="test">It is easy to use.</li>
+        <li class="test">It can help you to find what you want, really quickly.</li>
+        </ul>
+</body>
+</html>

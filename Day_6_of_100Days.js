@@ -3,12 +3,12 @@
 
 // Kelvin to Celsius
 const kelvin = 295;
-console.log(` The temperature to convert is ${kelvin} degrees Kelvin.`)
+console.log(`The temperature to convert is ${kelvin} degrees Kelvin.`)
 
 const celsius = kelvin - 273;
 console.log(`The temperature is ${celsius} degrees Celsius.`);
 
-// Celsius to Fahrenheit
+// Celsius to FahrenheitZ
 let fahrenheit = celsius * (9/5) + 32;
 fahrenheit = Math.floor(fahrenheit);
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);

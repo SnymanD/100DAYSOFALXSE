@@ -9,7 +9,7 @@ myAge -= 2;
 // setting the result equal laterYears
 let laterYears = earlyYears;
 
-// Multiplying laterYears by 4
+// Each year following equates to 4 dog years.
 laterYears *= 4;
 console.log(earlyYears);
 console.log(laterYears);

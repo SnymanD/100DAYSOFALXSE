@@ -1,9 +1,7 @@
-// A program that uses the Human Age to calculate the Dog Years using Human Age
-
-// Declaring a Human Age:
+// Here’s how you convert your age from “human years” to “dog years”:
 let myAge = 36;
 
-// The first year of dog counts as 2 years and the remaining as 4 years
+// The first two years of a dog’s life count as 10.5 dog years each
 let earlyYears = 2;
 earlyYears *= 10.5;
 myAge -= 2;

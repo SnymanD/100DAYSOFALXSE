@@ -14,8 +14,6 @@
 //Late adults run at 11:00 am.
 //Youth registrants run at 12:30 pm (regardless of registration).
 
-
-
 let raceNumber = Math.floor(Math.random() * 1000);
 let lateRegistration = true;
 let runnerAge = 24;
